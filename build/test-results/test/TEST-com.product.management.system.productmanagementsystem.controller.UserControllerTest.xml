@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.product.management.system.productmanagementsystem.controller.UserControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-10T05:12:47" hostname="DESKTOP-OOFE9IL" time="0.377">
+  <properties/>
+  <testcase name="createLoginTest()" classname="com.product.management.system.productmanagementsystem.controller.UserControllerTest" time="0.377"/>
+  <system-out><![CDATA[10:42:43.707 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.product.management.system.productmanagementsystem.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:42:43.910 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.product.management.system.productmanagementsystem.ProductManagementSystemApplication for test class com.product.management.system.productmanagementsystem.controller.UserControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-10T10:42:44.495+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] c.p.m.s.p.controller.UserControllerTest  : Starting UserControllerTest using Java 17.0.7 with PID 13992 (started by LENOVO in C:\Users\LENOVO\Documents\PC-Backup\ProductManagementSystem)
+2024-04-10T10:42:44.497+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] c.p.m.s.p.controller.UserControllerTest  : The following 1 profile is active: "test"
+2024-04-10T10:42:47.226+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-04-10T10:42:47.226+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-04-10T10:42:47.231+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-04-10T10:42:47.280+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] c.p.m.s.p.controller.UserControllerTest  : Started UserControllerTest in 3.246 seconds (process running for 4.768)
+2024-04-10T10:42:47.637+05:30  INFO 13992 --- [ProductManagementSystem] [    Test worker] c.p.m.s.p.controller.ProductController   : userLogin :: user logged in successfully with userDTO: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ProductManagementSystem
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/product_management_system
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
